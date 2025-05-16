@@ -33,7 +33,6 @@ public class Menu {
 
         String primerMensaje = """
                 Bienvenido/a a la página de tipo de cambio de moneda
-                
                 """;
         String segundoMensaje= """
                 ¿En que podemos ayudar?
@@ -58,8 +57,10 @@ public class Menu {
                 """;
         int numero;
 
+        System.out.println(primerMensaje);
+
         do {
-            System.out.println(primerMensaje);
+
             System.out.println(segundoMensaje);
             numero = sc.nextInt();
             sc.nextLine();
